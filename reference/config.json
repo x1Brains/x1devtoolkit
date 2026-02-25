@@ -1,0 +1,73 @@
+{
+  "networks": {
+    "mainnet": {
+      "rpc": "https://rpc.mainnet.x1.xyz",
+      "explorer": "https://explorer.mainnet.x1.xyz",
+      "explorerTx": "https://explorer.mainnet.x1.xyz/tx/"
+    },
+    "testnet": {
+      "rpc": "https://rpc.testnet.x1.xyz",
+      "explorer": "https://explorer.testnet.x1.xyz",
+      "explorerTx": "https://explorer.testnet.x1.xyz/tx/"
+    }
+  },
+  "tokens": {
+    "BRAINS": {
+      "mint": "F5fMGaFFcMSNfeMSBG5GTFBqnR1FGRpMJg5z6YDnMLnp",
+      "decimals": 9,
+      "program": "Token-2022",
+      "symbol": "BRAINS",
+      "name": "Brains"
+    },
+    "XNT_WRAPPED": {
+      "mint": "So11111111111111111111111111111111111111112",
+      "decimals": 9,
+      "program": "SPL Token",
+      "symbol": "XNT",
+      "name": "X1 Native Token (Wrapped)"
+    }
+  },
+  "programs": {
+    "SPL_TOKEN": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "TOKEN_2022": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "ASSOCIATED_TOKEN": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+    "METAPLEX_METADATA": "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
+  },
+  "apis": {
+    "xdex": {
+      "base": "https://api.xdex.xyz",
+      "app": "https://app.xdex.xyz",
+      "mint": "https://mint.xdex.xyz",
+      "endpoints": {
+        "tokenPrice": "/api/token-price/prices?network=X1%20Mainnet&token_addresses={MINT}",
+        "tokenPriceSingle": "/api/token-price/price?network=mainnet&address={MINT}",
+        "mintList": "/api/xendex/mint/list?network=mainnet",
+        "poolList": "/api/xendex/pool/list?network=mainnet",
+        "poolDetail": "/api/xendex/pool/{POOL_ADDR}?network=mainnet",
+        "poolStatus": "/api/xendex/pool/status?network=mainnet",
+        "priceChart": "/api/xendex/chart/price?network=mainnet&address={MINT}",
+        "walletPools": "/api/xendex/wallet/tokens/pool?network=mainnet&wallet={WALLET}"
+      }
+    },
+    "xenblocks": {
+      "leaderboard": "https://xenblocks.io/v1/leaderboard",
+      "regLedger": "https://xenblocks.io/reg-ledger/",
+      "explorer": "https://explorer.xenblocks.io"
+    },
+    "cyberdyne": {
+      "fullRegistry": "https://gist.githubusercontent.com/jacklevin74/d4c429c3d31e190247fd79b00d92f350/raw/cyberdyne.json",
+      "x1brainsProfile": "https://gist.githubusercontent.com/jacklevin74/e56e53177784e6c7c8ce86df8360e281/raw/cyberdyne_x1brains.json"
+    },
+    "supabase": {
+      "url": "https://xbchrxxfnzhsbpncfiar.supabase.co"
+    }
+  },
+  "ipfsGateways": [
+    "https://gateway.pinata.cloud/ipfs/",
+    "https://ipfs.io/ipfs/",
+    "https://cloudflare-ipfs.com/ipfs/",
+    "https://dweb.link/ipfs/",
+    "https://nftstorage.link/ipfs/"
+  ],
+  "arweaveGateway": "https://arweave.net/"
+}
