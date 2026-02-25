@@ -344,7 +344,7 @@ export default function App() {
 
         {/* ── HEADER ── */}
         <header style={{ textAlign: 'center', marginBottom: 36, animation: 'fadeUp .5s ease' }}>
-          <div style={{ fontFamily: ORB, fontSize: 'clamp(20px,4vw,42px)', fontWeight: 900, letterSpacing: '.1em', lineHeight: 1.1, marginBottom: 6, background: `linear-gradient(135deg,${net.color},#0077ff,${net.color})`, backgroundSize: '200% 200%', animation: 'shimmer 4s ease infinite', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+          <div style={{ fontFamily: ORB, fontSize: 'clamp(20px,4vw,42px)', fontWeight: 900, letterSpacing: '.1em', lineHeight: 1.2, marginBottom: 6, display: 'inline-block', background: `linear-gradient(135deg,${net.color},#0077ff,${net.color})`, backgroundSize: '200% 200%', animation: 'shimmer 4s ease infinite', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', color: 'transparent' }}>
             X1 DEV TOOLKIT
           </div>
           <div style={{ fontSize: 10, letterSpacing: '.35em', color: '#004455', textTransform: 'uppercase', fontFamily: MONO }}>
